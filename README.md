@@ -2,9 +2,9 @@
 This is a dummy python web application used for interviewing.
 
 ## Installation
-- Install/configure a mysql 8.0 database server
-- Install python 3.9
-- Install the python package dependencies declared in requirements.txt, some of them will require you to install some tools/libraries which you should install with your os pakage manager
+- Install and configure a mysql 8.0 database server and create a mysql user for the application
+- Install python3, python3-pip and libmysqlclient-dev via the system package manager
+- Install the python package dependencies declared in requirements.txt via pip
 - Create the .env configuration file in the top level of the repository with the appropriate values for your mysql database
 - Execute the countapp/init_database.py script to create the database structure
 
